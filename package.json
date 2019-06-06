@@ -1,0 +1,27 @@
+{
+  "name": "mousebot",
+  "version": "0.0.1",
+  "description": "mouse bot",
+  "main": "script.js",
+  "dependencies": {
+    "robotjs": "^0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KickFlip71/MouseBot.git"
+  },
+  "keywords": [
+    "mouse",
+    "bot"
+  ],
+  "author": "KickFlip71",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KickFlip71/MouseBot/issues"
+  },
+  "homepage": "https://github.com/KickFlip71/MouseBot#readme"
+}
