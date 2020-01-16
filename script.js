@@ -10,14 +10,15 @@ async function exec() {
 	for(let i = 0; ; i++) {
 		var mouse = robot.getMousePos();
 		robot.moveMouse(mouse.x + 1, mouse.y);
-		await sleep(4);
+		await sleep();
 		var mouse = robot.getMousePos();
 		robot.moveMouse(mouse.x - 1, mouse.y);
-		await sleep(4);
+		await sleep();
 	}
 }
 
-function sleep(sec) {
+function sleep() {
+	const sec = Math.floor((Math.random() * 3)) + 3
 	const time = sec * 1000;
 	return new Promise(resolve => setTimeout(resolve, time));
 }
